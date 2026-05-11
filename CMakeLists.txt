@@ -18,11 +18,11 @@ find_package(GTest REQUIRED)
 target_include_directories(tests PRIVATE ${GTEST_INCLUDE_DIRS})
 target_link_libraries(tests PRIVATE GTest::gtest_main)
 
-install(TARGETS runTests
+install(TARGETS tests
     RUNTIME DESTINATION bin
 )
 
-add_test(NAME runTests COMMAND runTests)
+add_test(NAME tests COMMAND runTests)
 
 set(CPACK_GENERATOR "DEB")
 set(CPACK_PACKAGE_NAME "tests")
