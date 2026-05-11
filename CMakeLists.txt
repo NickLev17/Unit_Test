@@ -22,7 +22,7 @@ install(TARGETS tests
     RUNTIME DESTINATION bin
 )
 
-add_test(NAME tests COMMAND runTests)
+add_test(NAME tests COMMAND tests)
 
 set(CPACK_GENERATOR "DEB")
 set(CPACK_PACKAGE_NAME "tests")
