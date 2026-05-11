@@ -32,7 +32,6 @@ set(CPACK_PACKAGE_VERSION_MINOR ${PROJECT_VERSION_MINOR})
 set(CPACK_PACKAGE_VERSION_PATCH ${PROJECT_VERSION_PATCH})
 set(CPACK_PACKAGE_CONTACT "example@example.com")
 set(CPACK_DEBIAN_PACKAGE_MAINTAINER "example@example.com")
-set(CPACK_DEBIAN_PACKAGE_DEPENDS "libc6 (>= 2.7), libmysqlcppconn8v5, libsqlite3-0")
 set(CPACK_DEBIAN_PACKAGE_DESCRIPTION "tests shared library and tools")
 
 include(CPack)
