@@ -86,6 +86,3 @@ int main(int argc, char** argv) {
     ::testing::InitGoogleTest(&argc, argv);
     return RUN_ALL_TESTS();
 }
-
-// g++ -std=c++17 main.cpp -lgtest -lgtest_main -pthread -o test
-// ./test
